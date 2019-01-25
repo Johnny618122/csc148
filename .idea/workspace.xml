@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="52a7c451-2b56-4ee1-80cc-056753a784e3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preps/prep3/prep3_sample_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/labs/lab3/lab3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="134" column="38" selection-start-line="134" selection-start-column="38" selection-end-line="134" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignments/a0/starter-code/elections.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="103" column="39" lean-forward="true" selection-start-line="103" selection-start-column="39" selection-end-line="103" selection-end-column="39" />
+              <folding>
+                <element signature="e#12962#13560#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/welcome.py" />
+        <option value="$PROJECT_DIR$/labs/lab2/tweet.py" />
+        <option value="$PROJECT_DIR$/labs/lab2/registry.py" />
+        <option value="$PROJECT_DIR$/labs/lab2/quiz.py" />
+        <option value="$PROJECT_DIR$/preps/prep3/prep3_sample_test.py" />
+        <option value="$PROJECT_DIR$/preps/prep3/prep3.py" />
+        <option value="$PROJECT_DIR$/labs/lab3/lab3.py" />
+        <option value="$PROJECT_DIR$/assignments/a0/starter-code/elections.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="csc148" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc148" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc148" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc148" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc148" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc148" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="a0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc148" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc148" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="a0" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/preps/prep3" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Doctest Election.update_results">
+    <configuration name="lab3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="csc148" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labs/lab3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labs/lab3/lab3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prep3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="csc148" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preps/prep3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preps/prep3/prep3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctest Election.__init__" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="csc148" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignments/a0/starter-code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignments/a0/starter-code/elections.py" />
+      <option name="CLASS_NAME" value="Election" />
+      <option name="METHOD_NAME" value="__init__" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctest Election.update_results" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="csc148" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignments/a0/starter-code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignments/a0/starter-code/elections.py" />
+      <option name="CLASS_NAME" value="Election" />
+      <option name="METHOD_NAME" value="update_results" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctest Employee.total_pay" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="csc148" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preps/prep3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preps/prep3/prep3.py" />
+      <option name="CLASS_NAME" value="Employee" />
+      <option name="METHOD_NAME" value="total_pay" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Doctest Election.update_results" />
+        <item itemvalue="Python tests.Doctest Election.__init__" />
+        <item itemvalue="Python.lab3" />
+        <item itemvalue="Python.prep3" />
+        <item itemvalue="Python tests.Doctest Employee.total_pay" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52a7c451-2b56-4ee1-80cc-056753a784e3" name="Default Changelist" comment="" />
+      <created>1547365766559</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547365766559</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Doctest_Employee_total_pay - 2019.01.19 at 21h 26m 27s.xml">
+      <configuration name="Doctest Employee.total_pay" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_Company_total_payroll - 2019.01.19 at 21h 28m 43s.xml">
+      <configuration name="Doctest Company.total_payroll" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_Company_total_payroll - 2019.01.19 at 21h 33m 06s.xml">
+      <configuration name="Doctest Company.total_payroll" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_Company_total_payroll - 2019.01.19 at 21h 33m 14s.xml">
+      <configuration name="Doctest Company.total_payroll" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_Company_total_payroll - 2019.01.21 at 14h 46m 36s.xml">
+      <configuration name="Doctest Company.total_payroll" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_Employee_total_pay - 2019.01.21 at 14h 46m 45s.xml">
+      <configuration name="Doctest Employee.total_pay" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_Election___init__ - 2019.01.25 at 16h 08m 02s.xml">
+      <configuration name="Doctest Election.__init__" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_Election_update_results - 2019.01.25 at 16h 16m 53s.xml">
+      <configuration name="Doctest Election.update_results" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_Election_update_results - 2019.01.25 at 16h 17m 58s.xml">
+      <configuration name="Doctest Election.update_results" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_Election_update_results - 2019.01.25 at 16h 26m 52s.xml">
+      <configuration name="Doctest Election.update_results" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13423352" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26712328" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.15721232" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/welcome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab2/registry.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab2/specs.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab2/tweet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#1339#1714#0" />
+            <element signature="e#1760#2033#0" />
+            <element signature="e#2089#2345#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab2/quiz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preps/prep3/prep3.py" />
+    <entry file="file://$PROJECT_DIR$/preps/prep3/prep3_sample_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/lab3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="134" column="38" selection-start-line="134" selection-start-column="38" selection-end-line="134" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/a0/starter-code/elections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="103" column="39" lean-forward="true" selection-start-line="103" selection-start-column="39" selection-end-line="103" selection-end-column="39" />
+          <folding>
+            <element signature="e#12962#13560#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
