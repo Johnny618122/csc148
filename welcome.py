@@ -23,6 +23,7 @@ def greet(name: str) -> str:
 
 if __name__ == '__main__':
     print(greet(MY_NAME))
+    dict = {}
 
     # Uncomment the code below to run our code checking tool, python_ta.
     # You should have downloaded and installed this library in PyCharm

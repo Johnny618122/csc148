@@ -74,15 +74,20 @@ class Election:
          election.
 
         >>> e = Election(date(2000, 2, 8))
+        >>> e.ridings_of()
+        []
         >>> e.update_results('r1', 'ndp', 1)
         >>> e.ridings_of()
         ['r1']
         >>> e.update_results('r2', 'ndp', 1)
         >>> e.ridings_of()
         ['r1', 'r2']
+        >>> e.update_results('r2', 'ndp', 1)
+        >>> e.update_results('r3', 'ndp', 1)
+        >>> e.ridings_of()
+        ['r1', 'r2', 'r3']
         """
-        # TODO: implement this method!
-        pass
+        return self._ridings
 
     def update_results(self, riding: str, party: str, votes: int) -> None:
         """Update this election to reflect that in <riding>, <party> received
@@ -100,6 +105,10 @@ class Election:
         >>> e.update_results('r1', 'ndp', 1000)
         >>> e.results_for('r1', 'ndp')
         1001
+        >>> e.update_results('r2', 'ndp', 120)
+        >>> e.update_results('r2', 'ndp', 150)
+        >>> e.results_for('r2', 'ndp')
+        270
         """
         if riding not in self._ridings:
             self._ridings.append(riding)
@@ -107,7 +116,12 @@ class Election:
         if party not in self._parties:
             self._parties.append(party)
 
-        self._results[riding] = {party:self._results[riding][party]+votes}
+        if riding not in self._results.keys():
+            self._results.update({riding: {}})
+        if party not in self._results[riding].keys():
+            self._results[riding].update({party: votes})
+        else:
+            self._results[riding][party] += votes
 
 
     def read_results(self, instream: IO[str]) -> None:
@@ -115,9 +129,32 @@ class Election:
 
         Precondition: instream is an open csv file, in the format defined
         in the A0 handout.
+        >>> e = Election(date(2000, 2, 8))
+        >>> e.read_results("../data/brampton-centre.csv")
+        >>> e.read_results("../data/labrador.csv")
+        >>> e.read_results("../data/medicine-hat.csv")
+        >>> e.read_results("../data/nunavut.csv")
+        >>> e.read_results("../data/parkdale-highpark.csv")
+        >>> e.read_results("../data/short_data.csv")
+        >>> e.read_results("../data/toronto-stpauls.csv")
+        >>> e.read_results("../data/university-rosedale.csv")
+        >>> e.election_winners()
+        ['Liberal']
+
+
         """
-        # TODO: implement this method!
-        pass
+        with open(instream) as f:
+
+            for line in f.readlines()[1:]:
+                line_split = line.split(',')
+                riding = line_split[1][1:-1]
+                party = line_split[13][1:-1]
+                votes = line_split[17][:-2]
+                if votes != "" and type(votes) == str:
+
+                    self.update_results(riding, party, int(votes))
+
+            return None
 
     def results_for(self, riding: str, party: str) -> Optional[int]:
         """Return the number of votes received in <riding> by <party> in
@@ -128,17 +165,26 @@ class Election:
         in this riding in this election.
 
         >>> e = Election(date(2000, 2, 8))
+        >>> e.results_for('r3','pc')
         >>> e.update_results('r1', 'ndp', 1234)
         >>> e.update_results('r1', 'lib', 1345)
+        >>> e.update_results('r1', 'pc', 544)
         >>> e.update_results('r1', 'pc', 1456)
         >>> e.update_results('r2', 'pc', 1)
         >>> e.results_for('r1', 'pc')
-        1456
+        2000
         >>> e.results_for('r2', 'pc')
         1
         """
-        # TODO: implement this method!
-        pass
+        if riding in self._ridings:
+            if party in self._results[riding]:
+                return self._results[riding][party]
+            else:
+                return None
+        else:
+            return None
+
+
 
     def riding_winners(self, riding: str) -> List[str]:
         """Return the winners, in <riding>, of this election.
@@ -153,12 +199,28 @@ class Election:
         >>> e = Election(date(2000, 2, 8))
         >>> e.update_results('r1', 'ndp', 1)
         >>> e.update_results('r1', 'lib', 2)
+        >>> e.update_results('r1', 'lib', 2)
         >>> e.update_results('r1', 'pc', 3)
         >>> e.riding_winners('r1')
-        ['pc']
+        ['lib']
         """
-        # TODO: implement this method!
-        pass
+        winner = []
+        current_winning_total = 0
+
+        if riding in self._results.keys():
+
+            for party, votes in self._results[riding].items():
+                if votes > current_winning_total:
+                    current_winning_total = votes
+            for party, votes in self._results[riding].items():
+                if votes == current_winning_total:
+                    winner.append(party)
+
+            return winner
+        else:
+            return None
+
+
 
     def popular_vote(self) -> Dict[str, int]:
         """Return the total number of votes earned by each party, across
@@ -174,12 +236,24 @@ class Election:
         >>> e.update_results('r2', 'pc', 4)
         >>> e.update_results('r2', 'lib', 5)
         >>> e.update_results('r2', 'green', 6)
-        >>> e.update_results('r2', 'ndp', 7)
-        >>> e.popular_vote() == {'ndp': 8, 'lib': 7, 'pc': 7, 'green': 6}
+        >>> e.update_results('r2', 'ndp', 9)
+        >>> e.update_results('r3', 'ndp', 9)
+        >>> e.update_results('r3', 'lib', 9)
+        >>> e.popular_vote() == {'ndp': 19, 'lib': 16, 'pc': 7, 'green': 6}
         True
         """
-        # TODO: implement this method!
-        pass
+        popular_vote = {}
+
+        for parties in self._parties:
+            popular_vote.update({parties:0})
+
+        for riding in self._ridings:
+            for party, votes in self._results[riding].items():
+                popular_vote[party] += votes
+
+        return popular_vote
+
+
 
     def party_seats(self) -> Dict[str, int]:
         """Return the number of ridings that each party won in this election.
@@ -198,9 +272,31 @@ class Election:
         >>> e.update_results('r2', 'ndp', 7)
         >>> e.party_seats() == {'pc': 1, 'ndp': 1, 'lib': 0, 'green': 0}
         True
+         >>> e.update_results('r2', 'lib', 7)
+        >>> e.party_seats() == {'pc': 1, 'ndp': 0, 'lib': 1, 'green': 0}
+        True
         """
-        # TODO: implement this method!
-        pass
+
+        party_seats = {}
+
+        for party in self._parties:
+            party_seats.update({party: 0})
+
+        for riding in self._ridings:
+            winner = []
+            current_winning_count = 0
+            for party, votes in self._results[riding].items():
+                if votes > current_winning_count:
+                    current_winning_count = votes
+
+            for party, votes in self._results[riding].items():
+                if votes == current_winning_count:
+                    winner.append(party)
+
+            if len(winner) < 2 :
+                party_seats[winner[0]] += 1
+
+        return party_seats
 
     def election_winners(self) -> List[str]:
         """Return the party (or parties, in the case of a tie) that won the
@@ -219,9 +315,31 @@ class Election:
         >>> e.update_results('r2', 'pc', 8)
         >>> e.election_winners()
         ['pc']
+        >>> e.update_results('r1', 'ndp', 9)
+        >>> e.update_results('r1', 'lib', 8)
+        >>> e.update_results('r1', 'pc', 7)
+        >>> e.update_results('r2', 'lib', 5)
+        >>> e.update_results('r2', 'green', 4)
+        >>> e.update_results('r2', 'ndp', 3)
+        >>> e.update_results('r2', 'pc', 2)
+        >>> e.election_winners()
+        []
         """
-        # TODO: implement this method!
-        pass
+        winner = []
+        current_winning_vote = 0
+        for votes in self.party_seats().values():
+            if votes > current_winning_vote:
+                current_winning_vote = votes
+
+        for party in self.party_seats().keys():
+            if self.party_seats()[party] == current_winning_vote:
+                winner.append(party)
+        if len(winner) < 2:
+            return winner
+        else:
+            return []
+
+
 
 
 class Jurisdiction:
