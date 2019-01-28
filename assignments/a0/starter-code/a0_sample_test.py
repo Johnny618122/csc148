@@ -39,6 +39,7 @@ SHORT_FILE_CONTENTS = 'header\n' + \
                                 '"Liberal"', '"Liberal"', 'Y', 'Y', '113'])
 
 
+
 def simple_election_setup() -> Election:
     """Set up a simple Election with two ridings and three parties"""
     e = Election(date(2000, 2, 8))
@@ -57,6 +58,7 @@ def simple_jurisdiction_setup() -> Jurisdiction:
     """Set up a simple Jurisdiction with a single Election and one result."""
     j = Jurisdiction('Canada')
     res1 = StringIO(SHORT_FILE_CONTENTS)
+    print(res1)
     j.read_results(2000, 1, 2, res1)
     return j
 
@@ -94,6 +96,7 @@ def test_simple_election_party_seats() -> None:
 def test_one_party_one_riding_read_results() -> None:
     """Test Election.read_results with a file with a single line."""
     file = StringIO(SHORT_FILE_CONTENTS)
+
     e = Election(date(2012, 10, 30))
     e.read_results(file)
     assert e.popular_vote() == {'Liberal': 113}
@@ -114,7 +117,7 @@ def test_simple_jurisdiction_party_history() -> None:
 def test_simple_jurisdiction_riding_changes() -> None:
     """Test Jurisdiction.riding_changes with two Elections."""
     j = simple_jurisdiction_setup()
-    res2 = open('sample_data/toronto-stpauls.csv')
+    res2 = open('../data/toronto-stpauls.csv')
     j.read_results(2004, 5, 15, res2)
     res2.close()
     assert j.riding_changes() == [({"St. Paul's"}, {"Toronto--St. Paul's"})]
