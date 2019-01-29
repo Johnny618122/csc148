@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="52a7c451-2b56-4ee1-80cc-056753a784e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/a0/starter-code/a0_sample_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/a0/starter-code/a0_sample_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/a0/starter-code/elections.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/a0/starter-code/elections.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,23 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assignments/a0/starter-code/elections.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7710">
-              <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-              <folding>
-                <element signature="e#581#606#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/a0/starter-code/a0_sample_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
-              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+            <state relative-caret-position="1904">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="e#927#952#0" expanded="true" />
               </folding>
@@ -39,12 +25,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/a0/data/short_data.csv">
+        <entry file="file://$PROJECT_DIR$/assignments/a0/starter-code/elections.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="125" lean-forward="true" selection-start-line="1" selection-start-column="125" selection-end-line="1" selection-end-column="125" />
+            <state relative-caret-position="1428">
+              <caret line="85" column="44" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/preps/prep4/prep4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preps/prep4/prep4_sample_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-385">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/a0/data/short_data.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
     </leaf>
@@ -79,6 +91,7 @@
         <option value="$PROJECT_DIR$/welcome.py" />
         <option value="$PROJECT_DIR$/assignments/a0/starter-code/elections.py" />
         <option value="$PROJECT_DIR$/assignments/a0/starter-code/a0_sample_test.py" />
+        <option value="$PROJECT_DIR$/preps/prep4/prep4.py" />
       </list>
     </option>
   </component>
@@ -102,27 +115,13 @@
             <path>
               <item name="csc148" type="b2602c69:ProjectViewProjectNode" />
               <item name="csc148" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="preps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csc148" type="b2602c69:ProjectViewProjectNode" />
               <item name="csc148" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="a0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csc148" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csc148" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="a0" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csc148" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csc148" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="a0" type="462c0819:PsiDirectoryNode" />
-              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="preps" type="462c0819:PsiDirectoryNode" />
+              <item name="prep4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -139,6 +138,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\brend\Desktop\csc148\preps\prep4" />
+      <recent name="C:\Users\brend\Desktop\csc148\assignments\a0" />
+      <recent name="C:\Users\brend\Desktop\csc148\assignments\a0\starter-code" />
       <recent name="$PROJECT_DIR$/preps/prep3" />
     </key>
   </component>
@@ -154,8 +156,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.elections">
-    <configuration name="a0_sample_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.prep4">
+    <configuration name="prep4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="csc148" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,11 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignments/a0/starter-code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preps/prep4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignments/a0/starter-code/a0_sample_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preps/prep4/prep4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="elections" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="prep4_sample_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="csc148" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,11 +186,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignments/a0/starter-code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preps/prep4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignments/a0/starter-code/elections.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preps/prep4/prep4_sample_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,67 +199,67 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest Election.popular_vote" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctest remove_all" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="csc148" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignments/a0/starter-code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preps/prep4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignments/a0/starter-code/elections.py" />
-      <option name="CLASS_NAME" value="Election" />
-      <option name="METHOD_NAME" value="popular_vote" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preps/prep4/prep4.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="remove_all" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest Jurisdiction.party_history" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctest remove_all_but_one" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="csc148" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignments/a0/starter-code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preps/prep4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignments/a0/starter-code/elections.py" />
-      <option name="CLASS_NAME" value="Jurisdiction" />
-      <option name="METHOD_NAME" value="party_history" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preps/prep4/prep4.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="remove_all_but_one" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest Jurisdiction.riding_changes" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctest reverse_top_two" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="csc148" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignments/a0/starter-code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preps/prep4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignments/a0/starter-code/elections.py" />
-      <option name="CLASS_NAME" value="Jurisdiction" />
-      <option name="METHOD_NAME" value="riding_changes" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preps/prep4/prep4.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="reverse_top_two" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.elections" />
-        <item itemvalue="Python.a0_sample_test" />
-        <item itemvalue="Python tests.Doctest Election.popular_vote" />
-        <item itemvalue="Python tests.Doctest Jurisdiction.party_history" />
-        <item itemvalue="Python tests.Doctest Jurisdiction.riding_changes" />
+        <item itemvalue="Python.prep4" />
+        <item itemvalue="Python.prep4_sample_test" />
+        <item itemvalue="Python tests.Doctest remove_all_but_one" />
+        <item itemvalue="Python tests.Doctest remove_all" />
+        <item itemvalue="Python tests.Doctest reverse_top_two" />
       </list>
     </recent_temporary>
   </component>
@@ -275,47 +277,46 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctest_Election_popular_vote - 2019.01.27 at 17h 54m 21s.xml">
-      <configuration name="Doctest Election.popular_vote" configurationId="tests" />
+    <history-entry file="Doctest_Jurisdiction_party_wins - 2019.01.27 at 22h 13m 06s.xml">
+      <configuration name="Doctest Jurisdiction.party_wins" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_Election_popular_vote - 2019.01.27 at 17h 55m 06s.xml">
-      <configuration name="Doctest Election.popular_vote" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctest_Election_popular_vote - 2019.01.27 at 17h 55m 14s.xml">
-      <configuration name="Doctest Election.popular_vote" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctest_Election_popular_vote - 2019.01.27 at 17h 55m 37s.xml">
-      <configuration name="Doctest Election.popular_vote" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctest_Election_popular_vote - 2019.01.27 at 17h 55m 47s.xml">
-      <configuration name="Doctest Election.popular_vote" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctest_Election_popular_vote - 2019.01.27 at 17h 56m 23s.xml">
-      <configuration name="Doctest Election.popular_vote" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctest_Jurisdiction_party_history - 2019.01.27 at 20h 47m 04s.xml">
+    <history-entry file="Doctest_Jurisdiction_party_history - 2019.01.27 at 22h 13m 09s.xml">
       <configuration name="Doctest Jurisdiction.party_history" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_Jurisdiction_riding_changes - 2019.01.27 at 20h 53m 07s.xml">
+    <history-entry file="Doctest_Jurisdiction_riding_changes - 2019.01.27 at 22h 13m 13s.xml">
       <configuration name="Doctest Jurisdiction.riding_changes" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_Jurisdiction_party_history - 2019.01.27 at 20h 53m 15s.xml">
-      <configuration name="Doctest Jurisdiction.party_history" configurationId="tests" />
+    <history-entry file="Doctest_peek - 2019.01.28 at 20h 32m 20s.xml">
+      <configuration name="Doctest peek" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_Election_popular_vote - 2019.01.27 at 21h 10m 08s.xml">
-      <configuration name="Doctest Election.popular_vote" configurationId="tests" />
+    <history-entry file="Doctest_peek - 2019.01.28 at 20h 33m 19s.xml">
+      <configuration name="Doctest peek" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_peek - 2019.01.28 at 20h 35m 18s.xml">
+      <configuration name="Doctest peek" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_reverse_top_two - 2019.01.28 at 20h 48m 24s.xml">
+      <configuration name="Doctest reverse_top_two" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_reverse_top_two - 2019.01.28 at 20h 48m 51s.xml">
+      <configuration name="Doctest reverse_top_two" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_remove_all - 2019.01.28 at 20h 50m 50s.xml">
+      <configuration name="Doctest remove_all" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_remove_all_but_one - 2019.01.28 at 20h 56m 48s.xml">
+      <configuration name="Doctest remove_all_but_one" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13382508" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27136752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23618636" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24096386" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915523" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,13 +374,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa217960.19688/starter-code/elections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="169" column="32" lean-forward="true" selection-start-line="169" selection-start-column="32" selection-end-line="169" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa217960.19688/starter-code/elections.py" />
     <entry file="file://$PROJECT_DIR$/assignments/a0/data/parkdale-highpark.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -401,30 +396,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/a0/data/short_data.csv">
+    <entry file="file://$PROJECT_DIR$/assignments/a0/elections.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="125" lean-forward="true" selection-start-line="1" selection-start-column="125" selection-end-line="1" selection-end-column="125" />
+        <state relative-caret-position="7956">
+          <caret line="469" column="44" lean-forward="true" selection-start-line="469" selection-start-column="44" selection-end-line="469" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/a0/starter-code/a0_sample_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+        <state relative-caret-position="1904">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
           <folding>
             <element signature="e#927#952#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/a0/data/short_data.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="125" lean-forward="true" selection-start-line="1" selection-start-column="125" selection-end-line="1" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/a0/starter-code/elections.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7710">
-          <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-          <folding>
-            <element signature="e#581#606#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1428">
+          <caret line="85" column="44" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preps/prep4/prep4_sample_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preps/prep4/prep4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
         </state>
       </provider>
     </entry>
