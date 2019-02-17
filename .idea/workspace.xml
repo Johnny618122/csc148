@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52a7c451-2b56-4ee1-80cc-056753a784e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/csc148.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csc148.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/a1/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/a1/filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/a1/pyta_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/a1/pyta_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/a1/sample_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/a1/sample_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignments/a1/filter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="155" column="36" lean-forward="true" selection-start-line="155" selection-start-column="36" selection-end-line="155" selection-end-column="36" />
+            <state relative-caret-position="493">
+              <caret line="162" column="46" lean-forward="true" selection-start-line="162" selection-start-column="46" selection-end-line="162" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -83,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/a1/callhistory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="119">
               <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="15" selection-end-column="15" />
             </state>
           </provider>
@@ -92,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/a1/sample_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="242" column="40" selection-start-line="242" selection-start-column="40" selection-end-line="242" selection-end-column="40" />
+            <state relative-caret-position="539">
+              <caret line="243" column="24" selection-start-line="243" selection-start-column="24" selection-end-line="243" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -223,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.application">
+  <component name="RunManager" selected="Python.sample_tests">
     <configuration name="application" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="csc148" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -331,8 +333,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.application" />
         <item itemvalue="Python.sample_tests" />
+        <item itemvalue="Python.application" />
         <item itemvalue="Python.callhistory" />
         <item itemvalue="Python.phoneline" />
         <item itemvalue="Python.prep6" />
@@ -393,13 +395,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42036837" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19501625" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.15709643" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -580,11 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/a1/call.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1275" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/a1/dataset.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4386">
@@ -599,20 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/a1/callhistory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/a1/sample_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="242" column="40" selection-start-line="242" selection-start-column="40" selection-end-line="242" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/a1/application.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -623,10 +606,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/a1/callhistory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/a1/call.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/a1/sample_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="243" column="24" selection-start-line="243" selection-start-column="24" selection-end-line="243" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/a1/filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="155" column="36" lean-forward="true" selection-start-line="155" selection-start-column="36" selection-end-line="155" selection-end-column="36" />
+        <state relative-caret-position="493">
+          <caret line="162" column="46" lean-forward="true" selection-start-line="162" selection-start-column="46" selection-end-line="162" selection-end-column="46" />
         </state>
       </provider>
     </entry>

@@ -143,23 +143,33 @@ class DurationFilter(Filter):
         specified in the handout.
         """
 
-        filter_duration = int(filter_string[1:])
-        filter_operator = filter_string[0]
-        call_list = []
+        try:
 
-        if filter_operator == "G":
+            filter_duration = int(filter_string[1:])
+            filter_operator = filter_string[0]
+            call_list = []
 
-            for call in data:
-                if call.duration > filter_duration:
-                    call_list.append(call)
+            if filter_operator == "G":
 
-        elif filter_operator == "L":
+                for call in data:
+                    if call.duration > filter_duration:
+                        call_list.append(call)
+                return call_list
 
-            for call in data:
-                if call.duration < filter_duration:
-                    call_list.append(call)
+            elif filter_operator == "L":
 
-        return call_list
+                for call in data:
+                    if call.duration < filter_duration:
+                        call_list.append(call)
+                return call_list
+            else:
+                return data
+
+
+
+        except:
+
+            return data
 
     def __str__(self) -> str:
         """ Return a description of this filter to be displayed in the UI menu
@@ -214,7 +224,9 @@ class LocationFilter(Filter):
                     call_list.append(call)
 
             return call_list
+
         except:
+
             return data
 
 

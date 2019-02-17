@@ -241,6 +241,7 @@ def test_filters() -> None:
             result = filters[i].apply(customers, calls, filter_strings[i][j])
             assert len(result) == expected_return_lengths[i][j]
             print(filter_strings[i][j], expected_return_lengths[i][j])
+            print(result)
 
 
 if __name__ == '__main__':
