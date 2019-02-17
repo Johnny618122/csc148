@@ -149,6 +149,8 @@ class DurationFilter(Filter):
             filter_operator = filter_string[0]
             call_list = []
 
+
+
             if filter_operator == "G":
 
                 for call in data:
@@ -164,8 +166,6 @@ class DurationFilter(Filter):
                 return call_list
             else:
                 return data
-
-
 
         except:
 

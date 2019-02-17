@@ -239,9 +239,11 @@ def test_filters() -> None:
     for i in range(len(filters)):
         for j in range(len(filter_strings[i])):
             result = filters[i].apply(customers, calls, filter_strings[i][j])
-            assert len(result) == expected_return_lengths[i][j]
             print(filter_strings[i][j], expected_return_lengths[i][j])
-            print(result)
+            for r in result:
+                print(r.duration)
+            assert len(result) == expected_return_lengths[i][j]
+
 
 
 if __name__ == '__main__':
