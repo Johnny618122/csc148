@@ -39,10 +39,8 @@ class CallHistory:
     def register_outgoing_call(self, call: Call) -> None:
         """ Register a Call <call> into this outgoing call history
         """
-        call_time = datetime.datetime.strptime(call.time, "%Y-%m-%d %H:%M:%S")
-        call_month = call_time.month
-        call_year = call_time.year
-        call_date_tuple = (call_month, call_year)
+
+        call_date_tuple = (call.time.month, call.time.year)
         if call_date_tuple in self.outgoing_calls.keys():
             self.outgoing_calls[call_date_tuple].append(call)
         else:
@@ -51,10 +49,7 @@ class CallHistory:
     def register_incoming_call(self, call: Call) -> None:
         """ Register a Call <call> into this incoming call history
         """
-        call_time = datetime.datetime.strptime(call.time, "%Y-%m-%d %H:%M:%S")
-        call_month = call_time.month
-        call_year = call_time.year
-        call_date_tuple = (call_month, call_year)
+        call_date_tuple = (call.time.month, call.time.year)
         if call_date_tuple in self.incoming_calls.keys():
             self.incoming_calls[call_date_tuple].append(call)
         else:

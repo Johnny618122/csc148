@@ -119,7 +119,8 @@ def process_event_history(log: Dict[str, List[Dict]],
                                               "%Y-%m-%d %H:%M:%S")
     billing_month = billing_date.month
     billing_year = billing_date.year
-    
+
+    new_month(customer_list, billing_month, billing_year) #advance?
     # start recording the bills from this date
     # Note: uncomment the following lines when you're ready to implement this
 
@@ -130,6 +131,7 @@ def process_event_history(log: Dict[str, List[Dict]],
         if billing_month != 12 and event_time.month > billing_month:
             billing_month += 1
             new_month(customer_list, billing_month, billing_year)
+
         if billing_month == 12 and event_time.month == 1:
             billing_month = 1
             billing_year += 1
@@ -137,7 +139,7 @@ def process_event_history(log: Dict[str, List[Dict]],
 
         if event_data["type"] == "call":
 
-            call = Call(event_data["src_number"], event_data["dst_number"], event_data["time"], event_data["duration"], (event_data["src_loc"][0], event_data["src_loc"][1]), (event_data["dst_loc"][0], event_data["dst_loc"][1]))
+            call = Call(event_data["src_number"], event_data["dst_number"], event_time, event_data["duration"], (event_data["src_loc"][0], event_data["src_loc"][1]), (event_data["dst_loc"][0], event_data["dst_loc"][1]))
             src_customer = find_customer_by_number(event_data["src_number"], customer_list)
             dst_customer = find_customer_by_number(event_data["dst_number"], customer_list)
             src_customer.make_call(call)

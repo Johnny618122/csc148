@@ -68,15 +68,13 @@ class PhoneLine:
         """
 
         self.callhistory.register_outgoing_call(call)
-        # call_month = call.time.month
-        # call_year = call.time.year
-        # call_tuple = (call_month, call_year)
-        # print(call_tuple)
-        # call_minutes = call.duration
-        # if call_tuple in self.bills.keys():
-        #     self.bills[call_tuple].add_billed_minutes(call_minutes)
-        # else:
-        #     self.new_month(call_month, call_year)
+        call_tuple = (call.time.month, call.time.year)
+
+        if call_tuple in self.bills.keys():
+            self.contract.bill_call(call)
+        else:
+            self.new_month(call.time.month, call.time.year)
+            self.contract.bill_call(call)
 
     def receive_call(self, call: Call) -> None:
         """ Add the <call> to this phone line's callhistory.
@@ -86,11 +84,10 @@ class PhoneLine:
         <call>.
         """
         self.callhistory.register_incoming_call(call)
-        # call_month = call.time.month
-        # call_year = call.time.year
-        # call_tuple = (call_month, call_year)
-        # if call_tuple not in self.bills.keys():
-        #     self.new_month(call_month, call_year)
+
+        call_tuple = (call.time.month, call.time.year)
+        if call_tuple not in self.bills.keys():
+            self.new_month(call.time.month, call.time.year)
 
 
 

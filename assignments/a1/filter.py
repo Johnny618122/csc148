@@ -149,8 +149,6 @@ class DurationFilter(Filter):
             filter_operator = filter_string[0]
             call_list = []
 
-
-
             if filter_operator == "G":
 
                 for call in data:
@@ -219,8 +217,9 @@ class LocationFilter(Filter):
                 if call.dst_loc[0] >= coord_list[0] and call.dst_loc[1] >= coord_list[1] and call.dst_loc[0] <= coord_list[2] and call.dst_loc[1] <= coord_list[3]:
                     call_list.append(call)
 
+
                 # lower left long and lat (lower bound)
-                if call.src_loc[0] >= coord_list[0] and call.src_loc[1] >= coord_list[1] and call.src_loc[0] <= coord_list[2] and call.src_loc[1] <= coord_list[3]:
+                elif call.src_loc[0] >= coord_list[0] and call.src_loc[1] >= coord_list[1] and call.src_loc[0] <= coord_list[2] and call.src_loc[1] <= coord_list[3]:
                     call_list.append(call)
 
             return call_list

@@ -92,6 +92,7 @@ class Contract:
 
 class TermContract(Contract):
     end: datetime.date
+    current_date: tuple
 
     def __init__(self, start: datetime.date, end: datetime.date) -> None:
         """ Create a new Contract with the <start> date, starts as inactive
@@ -107,7 +108,8 @@ class TermContract(Contract):
         """
         self.bill = bill
         self.bill.set_rates("TERM", TERM_MINS_COST)
-        self.bill.add_free_minutes(TERM_MINS)
+        self.bill.free_min = TERM_MINS
+        self.bill.add_fixed_cost(TERM_MONTHLY_FEE)
         if self.start.month == month and self.start.year == year:
             self.bill.add_fixed_cost(TERM_DEPOSIT)
 
@@ -119,7 +121,11 @@ class TermContract(Contract):
         was made. In other words, you can safely assume that self.bill has been
         already advanced to the right month+year.
         """
-        self.bill.add_billed_minutes(ceil(call.duration / 60.0))
+        if self.bill.free_min >= ceil(call.duration / 60.0):
+            self.bill.free_min -= ceil(call.duration / 60.0)
+        else:
+            self.bill.add_billed_minutes(ceil(call.duration / 60.0) - self.bill.free_min)
+            self.bill.free_min = 0
 
     def cancel_contract(self) -> float:
         """ Return the amount owed in order to close the phone line associated
@@ -131,6 +137,9 @@ class TermContract(Contract):
         exists for the right month+year when the cancelation is requested.
         """
         self.start = None
+
+        if self.current_date[0] < self.end.month and self.current_date[1] < self.end.year:
+            return self.bill.get_cost() + TERM_DEPOSIT
 
         return self.bill.get_cost()
 
@@ -149,6 +158,7 @@ class MTMContract(Contract):
             """
             self.bill = bill
             self.bill.set_rates("MTM", MTM_MINS_COST)
+            self.bill.add_fixed_cost(MTM_MONTHLY_FEE)
 
 
 class PrepaidContract(Contract):
@@ -170,8 +180,23 @@ class PrepaidContract(Contract):
             """
             self.bill = bill
             self.bill.set_rates("PREPAID", PREPAID_MINS_COST)
-            if self.balance > -10 :
+
+            self.balance += self.bill.get_cost()
+
+            if self.balance > -10:
+                self.bill.add_fixed_cost(-25)
                 self.balance -= 25
+
+
+    def bill_call(self, call: Call) -> None:
+        """ Add the <call> to the bill.
+
+        Precondition:
+        - a bill has already been created for the month+year when the <call>
+        was made. In other words, you can safely assume that self.bill has been
+        already advanced to the right month+year.
+        """
+        self.bill.add_billed_minutes(ceil(call.duration / 60.0))
 
     def cancel_contract(self) -> float:
         """ Return the amount owed in order to close the phone line associated

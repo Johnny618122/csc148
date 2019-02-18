@@ -3,7 +3,7 @@ CSC148, Winter 2019
 Assignment 1
 
 This is a revised version of the sample test module that includes
-two corrections: 
+two corrections:
 (1) Expected bill totals are now correctly based on
 the proper use of minutes and seconds, as described on Piazza:
 https://piazza.com/class/jpuk89lzot57ez?cid=536
@@ -240,8 +240,7 @@ def test_filters() -> None:
         for j in range(len(filter_strings[i])):
             result = filters[i].apply(customers, calls, filter_strings[i][j])
             print(filter_strings[i][j], expected_return_lengths[i][j])
-            for r in result:
-                print(r.duration)
+
             assert len(result) == expected_return_lengths[i][j]
 
 

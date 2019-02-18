@@ -78,9 +78,6 @@ class Bill:
     def add_billed_minutes(self, minutes: int) -> None:
         """ Add <minutes> minutes as billable minutes
         """
-        if self.free_min > 0:
-            self.billed_min -= self.free_min
-            self.free_min = 0
         self.billed_min += minutes
 
     def add_free_minutes(self, minutes: int) -> None:
